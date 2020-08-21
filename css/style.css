@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body{
+	margin: 0;
+	font-family: Impact;
+	margin: 40px 5px;
+	font-size:100%;
+	text-align: left;
+	background-color: #fff;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+} 
+
+
+header.masthead{
+	padding-top: 10.5rem;
+  padding-bottom: 6rem;
+	background-image: url("../scene.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	background-size: cover;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin-in{
+  background: #55ACEE;
+  color: white;	
+}

@@ -1,0 +1,10 @@
+body{
+    background color: orange;
+}
+
+#runner{
+    background:url("doramon.png");
+    width: 287;
+    height: 227;
+    animation:walk 1s steps(6) infinite, forward 5s linear infinite;
+}
